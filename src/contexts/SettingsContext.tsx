@@ -31,7 +31,8 @@ export function SettingsProvider({ children }: { children: ReactNode }) {
       }
       const storedHidden = localStorage.getItem('disabled_games');
       if (storedHidden) {
-        setHiddenGames(JSON.parse(storedHidden));
+        const parsed = JSON.parse(storedHidden);
+        setHiddenGames(Array.isArray(parsed) ? parsed : []);
       }
     } catch (e) {
       console.error('Failed to load settings', e);

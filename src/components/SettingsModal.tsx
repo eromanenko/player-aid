@@ -81,7 +81,7 @@ export function SettingsModal({ isOpen, onClose, currentLang }: SettingsModalPro
     };
   }, [isOpen, onClose]);
 
-  const handleBackdropClick = (e: React.MouseEvent) => {
+  const handleBackdropClick = (e: React.MouseEvent | React.PointerEvent) => {
     if (e.target === e.currentTarget) onClose();
   };
 
@@ -103,7 +103,7 @@ export function SettingsModal({ isOpen, onClose, currentLang }: SettingsModalPro
   return (
     <div 
       className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 animate-in fade-in duration-200"
-      onClick={handleBackdropClick}
+      onPointerDown={handleBackdropClick}
     >
       <div 
         ref={modalRef}
