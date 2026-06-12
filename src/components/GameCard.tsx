@@ -18,6 +18,10 @@ export function GameCard({ id, title, players, time, lang, thumbnail }: GameCard
   const { filterMode, hiddenGames, toggleHiddenGame } = useSettings();
   const isSelected = !hiddenGames.includes(id);
 
+  // Prepend basePath for Github Pages since unoptimized Image ignores it
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const imageSrc = thumbnail ? (thumbnail.startsWith('/') ? `${basePath}${thumbnail}` : thumbnail) : undefined;
+
   const handleCheckboxClick = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -31,10 +35,10 @@ export function GameCard({ id, title, players, time, lang, thumbnail }: GameCard
           
           {/* Background Image Area */}
           <div className="absolute inset-0 w-full h-full bg-muted">
-            {thumbnail ? (
+            {imageSrc ? (
               <>
                 <Image 
-                  src={thumbnail} 
+                  src={imageSrc} 
                   alt={title} 
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"

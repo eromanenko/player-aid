@@ -14,6 +14,9 @@ if (isGithubActions && process.env.GITHUB_REPOSITORY) {
 }
 
 const nextConfig: NextConfig = {
+  env: {
+    NEXT_PUBLIC_BASE_PATH: repo,
+  },
   output: process.env.GITHUB_ACTIONS || process.env.NODE_ENV === 'production' ? "export" : undefined,
   images: {
     unoptimized: true,
