@@ -1,8 +1,8 @@
 "use client"
 
-import { useState } from 'react';
 import { GameCard } from './GameCard';
 import { GameMetadata } from '../lib/games';
+import { useSettings } from '../contexts/SettingsContext';
 
 interface GameListProps {
   games: GameMetadata[];
@@ -10,11 +10,17 @@ interface GameListProps {
 }
 
 export function GameList({ games, lang }: GameListProps) {
-  const [query, setQuery] = useState('');
+  const { searchQuery, filterMode, hiddenGames } = useSettings();
 
   const filteredGames = games.filter(game => {
-    if (!query) return true;
-    const lowerQuery = query.toLowerCase();
+    // Check if game should be hidden in 'selected' mode
+    if (filterMode === 'selected' && hiddenGames.includes(game.id)) {
+      return false;
+    }
+
+    // Apply search filter
+    if (!searchQuery) return true;
+    const lowerQuery = searchQuery.toLowerCase();
     return (
       game.title.toLowerCase().includes(lowerQuery) || 
       (game.searchTerms && game.searchTerms.includes(lowerQuery))
@@ -23,15 +29,6 @@ export function GameList({ games, lang }: GameListProps) {
 
   return (
     <div>
-      <div className="mb-8">
-        <input 
-          type="search" 
-          placeholder={lang === 'uk' ? 'Пошук ігор...' : lang === 'ru' ? 'Поиск игр...' : 'Search games...'}
-          className="w-full px-5 py-4 rounded-xl border border-input bg-card text-foreground placeholder-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary shadow-sm text-lg"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredGames.length > 0 ? (
           filteredGames.map((game) => (

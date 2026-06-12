@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "../../components/ThemeProvider";
 import { Header } from "../../components/Header";
+import { SettingsProvider } from "../../contexts/SettingsContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,9 +43,11 @@ export default async function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex flex-col min-h-screen">
-            {children}
-          </div>
+          <SettingsProvider>
+            <div className="flex flex-col min-h-screen">
+              {children}
+            </div>
+          </SettingsProvider>
         </ThemeProvider>
       </body>
     </html>
