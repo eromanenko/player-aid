@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Player Aid PWA",
+  title: "Board Game Player Aid",
   description: "Quick reference guide for board games",
 };
 

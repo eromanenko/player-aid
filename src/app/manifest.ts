@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return {
-    name: 'Player Aid',
-    short_name: 'Player Aid',
+    name: 'Board Game Player Aid',
+    short_name: 'Board Game Player Aid',
     description: 'Quick reference guide for board games',
     start_url: `${basePath}/uk`,
     display: 'standalone',
@@ -16,15 +16,21 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: '#2563eb',
     icons: [
       {
-        src: `${basePath}/icon.svg`,
-        sizes: '192x192 512x512 any',
-        type: 'image/svg+xml',
+        src: `${basePath}/icon-192.png`,
+        sizes: '192x192',
+        type: 'image/png',
         purpose: 'any'
       },
       {
-        src: `${basePath}/icon.svg`,
-        sizes: '192x192 512x512 any',
-        type: 'image/svg+xml',
+        src: `${basePath}/icon-512.png`,
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'any'
+      },
+      {
+        src: `${basePath}/icon-512.png`,
+        sizes: '512x512',
+        type: 'image/png',
         purpose: 'maskable'
       }
     ]
