@@ -1,5 +1,7 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
 export default function manifest(): MetadataRoute.Manifest {
   // Prepend basePath for Github Pages if needed
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
