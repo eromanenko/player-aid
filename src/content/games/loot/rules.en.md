@@ -1,0 +1,8 @@
+---
+title: "Loot"
+players: "2-8"
+time: "20"
+bggId: 770
+---
+
+Rules description will appear here soon...

@@ -4,13 +4,21 @@ const path = require('path');
 const https = require('https');
 
 const games = [
-  { id: 'dnup', bggId: 432456 },
-  { id: 'sea-salt-paper', bggId: 367220 },
-  { id: '7-wonders', bggId: 316377 },
-  { id: '7-wonders-architects', bggId: 346703 },
-  { id: 'azul', bggId: 230802 },
-  { id: 'azul-duel', bggId: 431038 },
-  { id: 'azul-summer-pavilion', bggId: 287954 },
+  { id: 'faraway', bggId: 385761 },
+  { id: 'gubs', bggId: 31808 },
+  { id: 'the-isle-of-cats', bggId: 281259 },
+  { id: 'half-and-seek', bggId: 424581 },
+  { id: 'quacks', bggId: 244521 },
+  { id: 'splendor', bggId: 148228 },
+  { id: 'alices-garden', bggId: 298635 },
+  { id: 'celestia', bggId: 175117 },
+  { id: 'celestia-a-little-initiative', bggId: 255137 },
+  { id: 'medieval-academy', bggId: 154386 },
+  { id: 'timeline-inventions', bggId: 85256 },
+  { id: 'top-ten', bggId: 300905 },
+  { id: 'trio', bggId: 352515 },
+  { id: 'hadara', bggId: 269144 },
+  { id: 'ribbit', bggId: 9441 },
 ];
 
 function download(url, dest) {

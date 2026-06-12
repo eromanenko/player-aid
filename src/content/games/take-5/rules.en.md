@@ -1,0 +1,8 @@
+---
+title: "Take 5"
+players: "2-10"
+time: "45"
+bggId: 432
+---
+
+Rules description will appear here soon...
