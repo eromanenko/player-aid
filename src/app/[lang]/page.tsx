@@ -8,6 +8,10 @@ interface HomeProps {
   }>;
 }
 
+export function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'uk' }, { lang: 'ru' }];
+}
+
 export default async function Home({ params }: HomeProps) {
   const { lang } = await params;
   const games = await getAllGames(lang);

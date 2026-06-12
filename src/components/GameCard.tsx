@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useSettings } from '../contexts/SettingsContext';
 import { Check } from 'lucide-react';
 
@@ -32,11 +33,12 @@ export function GameCard({ id, title, players, time, lang, thumbnail }: GameCard
           <div className="absolute inset-0 w-full h-full bg-muted">
             {thumbnail ? (
               <>
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img 
+                <Image 
                   src={thumbnail} 
                   alt={title} 
-                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
                 />
                 {/* Overlay Gradients for readability */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-300 group-hover:opacity-95"></div>

@@ -20,8 +20,9 @@ export function MarkdownRenderer({ content, activeExpansions = [] }: MarkdownRen
           strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
           div: ({ node, ...props }) => {
             // Check if it's an expansion block
-            if (props['data-expansion']) {
-              const expId = String(props['data-expansion']);
+            const dataExpansion = (props as any)['data-expansion'];
+            if (dataExpansion) {
+              const expId = String(dataExpansion);
               if (!activeExpansions.includes(expId)) return null;
               
               return (

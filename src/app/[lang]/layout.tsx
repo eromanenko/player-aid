@@ -18,8 +18,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Player Aid PWA",
   description: "Quick reference guide for board games",
-  manifest: "/manifest.json",
 };
+
+export function generateStaticParams() {
+  return [{ lang: 'en' }, { lang: 'uk' }, { lang: 'ru' }];
+}
 
 export default async function RootLayout({
   children,
