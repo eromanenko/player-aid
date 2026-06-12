@@ -1,0 +1,24 @@
+import ReactMarkdown from 'react-markdown';
+
+interface MarkdownRendererProps {
+  content: string;
+}
+
+export function MarkdownRenderer({ content }: MarkdownRendererProps) {
+  return (
+    <div className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-foreground prose-a:text-primary prose-strong:text-foreground prose-li:text-muted-foreground prose-p:text-muted-foreground">
+      <ReactMarkdown
+        components={{
+          h2: ({ node, ...props }) => <h2 className="text-2xl font-bold mt-8 mb-4 border-b border-border pb-2" {...props} />,
+          ul: ({ node, ...props }) => <ul className="list-disc pl-6 mb-4 space-y-2" {...props} />,
+          ol: ({ node, ...props }) => <ol className="list-decimal pl-6 mb-4 space-y-2" {...props} />,
+          li: ({ node, ...props }) => <li className="" {...props} />,
+          p: ({ node, ...props }) => <p className="mb-4 leading-relaxed" {...props} />,
+          strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
+        }}
+      >
+        {content}
+      </ReactMarkdown>
+    </div>
+  );
+}
