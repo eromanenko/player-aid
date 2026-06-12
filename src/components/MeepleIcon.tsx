@@ -1,0 +1,52 @@
+import React from 'react';
+
+export function MeepleIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg 
+      xmlns="http://www.w3.org/2000/svg" 
+      viewBox="0 0 100 100" 
+      {...props}
+    >
+      <g stroke="currentColor" strokeWidth="4" strokeLinejoin="round" strokeLinecap="round">
+        {/* Main Meeple Body */}
+        <path 
+          className="fill-amber-400"
+          d="M 50 12 C 42 12 36 18 36 26 C 36 29 37 32 40 34 C 25 38 12 44 8 50 C 5 55 8 60 14 60 C 20 60 26 56 32 52 C 28 66 20 83 20 88 C 20 94 32 94 38 88 C 44 82 48 75 50 70 C 52 75 56 82 62 88 C 68 94 80 94 80 88 C 80 83 72 66 68 52 C 74 56 80 60 86 60 C 92 60 95 55 92 50 C 88 44 75 38 60 34 C 63 32 64 29 64 26 C 64 18 58 12 50 12 Z" 
+        />
+        
+        {/* Book */}
+        <path 
+          className="fill-white dark:fill-slate-900"
+          d="M 50 42 L 18 35 L 22 75 L 50 85 L 78 75 L 82 35 Z" 
+        />
+        {/* Spine */}
+        <line x1="50" y1="42" x2="50" y2="85" />
+        
+        {/* Left page mini meeple & lines */}
+        <path 
+          fill="currentColor" 
+          stroke="none"
+          d="M 35 45 C 33 45 32 47 32 49 C 28 50 25 52 25 54 C 25 55 27 57 29 57 C 28 61 26 65 26 66 C 30 66 33 64 35 62 C 37 64 40 66 44 66 C 44 65 42 61 41 57 C 43 57 45 55 45 54 C 45 52 42 50 38 49 C 38 47 37 45 35 45 Z" 
+        />
+        <line x1="28" y1="72" x2="45" y2="76" />
+        <line x1="30" y1="79" x2="42" y2="82" />
+        
+        {/* Right page lines */}
+        <line x1="55" y1="48" x2="75" y2="44" />
+        <line x1="55" y1="56" x2="72" y2="52" />
+        <line x1="55" y1="64" x2="70" y2="60" />
+        <line x1="55" y1="72" x2="68" y2="68" />
+
+        {/* Hands */}
+        <path 
+          className="fill-amber-400"
+          d="M 19 48 C 10 48 10 65 23 65 C 27 65 29 60 29 56 C 29 52 26 48 19 48 Z" 
+        />
+        <path 
+          className="fill-amber-400"
+          d="M 81 48 C 90 48 90 65 77 65 C 73 65 71 60 71 56 C 71 52 74 48 81 48 Z" 
+        />
+      </g>
+    </svg>
+  );
+}
