@@ -1,5 +1,5 @@
 import { getGameData, getAllGameIds } from "../../../../lib/games";
-import { MarkdownRenderer } from "../../../../components/MarkdownRenderer";
+import { GameContent } from "../../../../components/GameContent";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
@@ -43,14 +43,22 @@ export default async function GamePage({
           {lang === 'uk' ? 'Назад до списку' : lang === 'ru' ? 'Назад к списку' : 'Back to list'}
         </Link>
         
-        <div className="flex gap-4 text-sm text-muted-foreground mb-8">
-          {gameData.players && <span>👥 {gameData.players}</span>}
-          {gameData.time && <span>⏳ {gameData.time} min</span>}
+        <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-8">
+          {gameData.players && <span className="flex items-center gap-1">👥 {gameData.players}</span>}
+          {gameData.time && <span className="flex items-center gap-1">⏳ {gameData.time} min</span>}
+          {gameData.bggId && (
+            <a 
+              href={`https://boardgamegeek.com/boardgame/${gameData.bggId}`} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 px-3 py-1 bg-[#ff5100]/10 text-[#ff5100] hover:bg-[#ff5100]/20 rounded-full font-semibold transition-colors"
+            >
+              🎲 BGG
+            </a>
+          )}
         </div>
 
-        <div className="bg-card text-card-foreground rounded-xl border p-6 md:p-8 shadow-sm">
-          <MarkdownRenderer content={gameData.content} />
-        </div>
+        <GameContent content={gameData.content} expansions={gameData.expansions} />
       </main>
     </>
   );

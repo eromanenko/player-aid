@@ -4,11 +4,20 @@ import matter from 'gray-matter';
 
 const gamesDirectory = path.join(process.cwd(), 'src/content/games');
 
+export interface GameExpansion {
+  id: string;
+  name: string;
+}
+
 export interface GameMetadata {
   id: string;
   title: string;
   players?: string;
   time?: string;
+  bggId?: number;
+  searchTerms?: string;
+  expansions?: GameExpansion[];
+  thumbnail?: string;
 }
 
 export function getAllGames(lang: string): GameMetadata[] {
@@ -25,12 +34,28 @@ export function getAllGames(lang: string): GameMetadata[] {
     const fileContents = fs.readFileSync(targetPath, 'utf8');
     const matterResult = matter(fileContents);
 
+    const searchTerms = ['uk', 'en', 'ru']
+      .map(l => {
+        const p = path.join(gamesDirectory, id, `rules.${l}.md`);
+        if (fs.existsSync(p)) {
+          return matter(fs.readFileSync(p, 'utf8')).data.title || '';
+        }
+        return '';
+      })
+      .filter(Boolean)
+      .join(' ')
+      .toLowerCase();
+
     return {
       id,
       title: matterResult.data.title || id,
       players: matterResult.data.players,
       time: matterResult.data.time,
-    };
+      bggId: matterResult.data.bggId,
+      searchTerms,
+      expansions: matterResult.data.expansions,
+      thumbnail: `/games/${id}/cover.jpg`
+    } as GameMetadata;
   }).filter(Boolean) as GameMetadata[];
 
   return allGames;
