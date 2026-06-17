@@ -18,6 +18,11 @@ export function MarkdownRenderer({ content, activeExpansions = [] }: MarkdownRen
           li: ({ node, ...props }) => <li className="" {...props} />,
           p: ({ node, ...props }) => <p className="mb-4 leading-relaxed" {...props} />,
           strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
+          img: ({ node, ...props }) => {
+            const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+            const src = props.src?.startsWith('/') ? `${basePath}${props.src}` : props.src;
+            return <img className="rounded-lg shadow-sm border border-border max-w-full h-auto my-6 mx-auto" {...props} src={src} />;
+          },
           div: ({ node, ...props }) => {
             // Check if it's an expansion block
             const dataExpansion = (props as any)['data-expansion'];
