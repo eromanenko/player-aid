@@ -201,7 +201,7 @@ export function SettingsModal({ isOpen, onClose, currentLang }: SettingsModalPro
 
         {/* Footer */}
         <div className="p-4 border-t border-border bg-muted/30 text-center">
-          <span className="text-xs text-muted-foreground">{t.version} 0.3.1</span>
+          <span className="text-xs text-muted-foreground">{t.version} 0.4.0</span>
         </div>
       </div>
     </div>
