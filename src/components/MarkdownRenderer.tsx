@@ -20,7 +20,7 @@ export function MarkdownRenderer({ content, activeExpansions = [] }: MarkdownRen
           strong: ({ node, ...props }) => <strong className="font-semibold" {...props} />,
           img: ({ node, ...props }) => {
             const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-            const src = props.src?.startsWith('/') ? `${basePath}${props.src}` : props.src;
+            const src = typeof props.src === 'string' && props.src.startsWith('/') ? `${basePath}${props.src}` : (props.src as string | undefined);
             return <img className="rounded-lg shadow-sm border border-border max-w-full h-auto my-6 mx-auto" {...props} src={src} />;
           },
           div: ({ node, ...props }) => {
