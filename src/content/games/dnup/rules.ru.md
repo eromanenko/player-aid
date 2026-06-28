@@ -1,5 +1,4 @@
----
-id: "dnup"
+﻿---
 title: "Dnup"
 bggId: 432456
 players: "2-5"

@@ -1,6 +1,5 @@
----
-id: "azul"
-title: "Азул (Azul)"
+﻿---
+title: "Азул"
 bggId: 230802
 players: "2-4"
 time: "30-45"

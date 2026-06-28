@@ -30,8 +30,11 @@ export function GameCard({ id, title, players, time, lang, thumbnail }: GameCard
 
   return (
     <div className="relative block group">
-      <Link href={`/${lang}/games/${id}`} className="block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded-2xl relative">
-        <div className={`relative aspect-[1200/630] w-full rounded-2xl overflow-hidden shadow-sm border ${filterMode === 'all' && !isSelected ? 'border-border/30 opacity-60 grayscale transition-all' : 'border-border/50 bg-card transition-all duration-300 ease-out group-hover:shadow-xl group-hover:border-primary/50 group-hover:-translate-y-1'}`}>
+      <Link href={`/${lang}/games/${id}`} className="block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded-[12px] relative">
+        <div 
+          className={`relative aspect-[1200/630] w-full overflow-hidden shadow-sm transition-all duration-300 ease-out ${filterMode === 'all' && !isSelected ? 'opacity-60 grayscale' : 'bg-card group-hover:shadow-xl group-hover:-translate-y-1'}`}
+          style={{ border: '2px solid', borderRadius: '12px' }}
+        >
           
           {/* Background Image Area */}
           <div className="absolute inset-0 w-full h-full bg-muted">
@@ -45,18 +48,18 @@ export function GameCard({ id, title, players, time, lang, thumbnail }: GameCard
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-105" 
                 />
                 {/* Overlay Gradients for readability */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent transition-opacity duration-300 group-hover:opacity-95"></div>
-                <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-white/95 via-white/70 to-transparent dark:from-black/90 dark:via-black/40 dark:to-transparent transition-opacity duration-300 group-hover:opacity-95"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-white/60 to-transparent dark:from-black/50 dark:to-transparent"></div>
               </>
             ) : (
-              <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/80 to-purple-700/80"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-slate-200 to-slate-300 dark:from-indigo-500/80 dark:to-purple-700/80"></div>
             )}
           </div>
           
           {/* Content Area */}
           <div className="absolute inset-0 p-5 sm:p-6 flex flex-col justify-end z-10">
             <div className="transform transition-transform duration-300 ease-out translate-y-1 group-hover:translate-y-0">
-              <h2 className="text-xl sm:text-2xl font-black text-white leading-tight drop-shadow-md line-clamp-2">
+              <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white leading-tight drop-shadow-sm dark:drop-shadow-md line-clamp-2">
                 {title}
               </h2>
             </div>

@@ -1,5 +1,4 @@
----
-id: "sea-salt-paper"
+﻿---
 title: "Море, Сіль, Папір"
 bggId: 367220
 players: "2-4"

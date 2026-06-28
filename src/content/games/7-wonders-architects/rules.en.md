@@ -1,5 +1,4 @@
----
-id: "7-wonders-architects"
+﻿---
 title: "7 Wonders: Architects"
 bggId: 346703
 players: "2-7"
@@ -29,7 +28,7 @@ Place the chosen card in front of you.
 * **Red (Military):** Provide military shields. If you draw a red card with **one or two horns**, you must flip that many "Peace" tokens to their "Battle" side in the center of the table.
 
 ## Building Your Wonder
-As soon as you have the required combination of resources to build the next (lowest available) stage of your Wonder, you **must** build it at the end of your turn.
+As soon as you have the required combination of resources to build the next (lowest available) stage of your Wonder, you **must** build it during your turn.
 * Requirements (e.g., 2 different, 3 identical) are paid with resource/coin cards.
 * Discard the used cards and flip the Wonder stage to its "built" side.
 

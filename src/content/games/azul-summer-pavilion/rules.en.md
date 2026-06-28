@@ -1,5 +1,4 @@
----
-id: "azul-summer-pavilion"
+﻿---
 title: "Azul: Summer Pavilion"
 bggId: 287954
 players: "2-4"

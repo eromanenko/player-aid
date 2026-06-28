@@ -1,6 +1,5 @@
----
-id: "azul-summer-pavilion"
-title: "Азул: Літній Павільйон (Azul: Summer Pavilion)"
+﻿---
+title: "Азул: Літній Павільйон"
 bggId: 287954
 players: "2-4"
 time: "30-45"

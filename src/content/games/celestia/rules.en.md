@@ -9,7 +9,9 @@ expansions:
 ---
 
 ## Setup
-Place the 9 City tiles in order (1 to 25). Place the corresponding treasure decks next to each city. All players place their pawns on the airship on the first city. Deal starting equipment cards to each player.
+Place the 9 City tiles in order (1 to 25). Place the corresponding treasure decks next to each city. All players place their pawns on the airship on the first city. Deal starting equipment cards to each player:
+*   8 cards for 2-3 players;
+*   6 cards for 4 or more players.
 
 ## Gameplay
 Each journey, one player acts as the Captain, and the rest are Passengers.

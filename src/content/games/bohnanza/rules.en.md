@@ -15,8 +15,10 @@ On your turn, follow these phases:
 3. **Plant Traded Beans:** Any beans received through trades must be planted in your fields immediately.
 4. **Drawing:** Draw 3 new cards from the deck one by one. You must add these to the **back** of your hand.
 
+**Fields:** Each player starts with 2 fields. Only one type of bean can grow in each field. The "3rd field" card can be bought at any time for 3 coins, but only once per game.
+
 **Harvesting:** 
-You can harvest a field at any time. Count the number of beans in that field and refer to the card's "beanometer" to see how many gold coins you earn. Flip the scored beans over to their coin side and place them in your personal pile.
+You can harvest a field at any time. You **CANNOT** harvest a field with only one bean, unless all of your fields have only 1 bean. Count the number of beans in that field and refer to the card's "beanometer" to see how many gold coins you earn. Flip the scored beans over to their coin side and place them in your personal pile.
 
 ## Winning
 The game ends when the draw pile is emptied for the 3rd time. The player with the most gold coins wins.

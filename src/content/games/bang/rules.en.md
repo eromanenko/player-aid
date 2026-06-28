@@ -6,6 +6,15 @@ bggId: 3955
 ---
 
 ## Setup
+Take role cards depending on the number of players:
+
+| Players | Sheriff | Renegade | Outlaws | Deputies |
+| :---: | :---: | :---: | :---: | :---: |
+| **4** | 1 | 1 | 2 | - |
+| **5** | 1 | 1 | 2 | 1 |
+| **6** | 1 | 1 | 3 | 1 |
+| **7** | 1 | 1 | 3 | 2 |
+
 Shuffle and deal 1 Role card to each player (keep secret, except the Sheriff who reveals it). Deal 1 Character card to each player. Your character determines your special ability and starting health (bullets). The Sheriff gets +1 bullet. Draw cards equal to your starting bullets.
 
 ## Gameplay

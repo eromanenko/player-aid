@@ -1,5 +1,5 @@
 ---
-title: "Dawn Under"
+title: "Вампірчики"
 players: "2-4"
 time: "30"
 bggId: 10814

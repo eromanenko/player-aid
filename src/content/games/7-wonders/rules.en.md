@@ -1,6 +1,5 @@
----
-id: "7-wonders"
-title: "7 Wonders (Second Edition)"
+﻿---
+title: "7 Wonders"
 bggId: 316377
 players: "3-7"
 time: "30"
@@ -12,7 +11,7 @@ Each player receives a Wonder board (random or chosen side) and 3 coins from the
 ## Gameplay
 The game consists of 3 Ages. At the start of each Age, players receive a hand of 7 cards. Every turn is played simultaneously:
 1. **Choose a card:** Pick 1 card from your hand and place it face down in front of you.
-2. **Pass the cards:** Pass the remaining cards to your neighbor (Left in Ages I and III, Right in Age II).
+2. **Pass the cards:** Pass the remaining cards to your neighbor according to the arrow on the card draft track. If you chose from the last two cards, discard the final card face down to the center instead of passing it.
 3. **Perform an action:** Once everyone has chosen, simultaneously reveal your cards and resolve one of three actions.
 
 **Available Actions:**

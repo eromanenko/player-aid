@@ -1,5 +1,5 @@
 ---
-title: "All In: Predictions"
+title: "Ва-банк: предсказания"
 players: "2-5"
 time: "25-30"
 bggId: 457436
@@ -42,5 +42,5 @@ bggId: 457436
 - Каждый игрок дополнительно получает количество рун, соответствующее рангу на руке. 
 - Карты рун дополнительно приносят по 2 руны.
 
-![Пам'ятка](/games/all-in-predictions/reference.png)
+![Памятка](/games/all-in-predictions/reference.png)
 

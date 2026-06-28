@@ -1,5 +1,4 @@
----
-id: "azul"
+﻿---
 title: "Azul"
 bggId: 230802
 players: "2-4"

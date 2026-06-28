@@ -41,3 +41,4 @@ Each player, starting with the one whose turn would have been next, places their
 - Everyone who guessed correctly splits the round's pot evenly. The remainder goes to the next round's pot.
 - Each player receives an additional number of runes corresponding to the rank of their hand.
 - Rune cards grant an additional 2 runes each.
+![Reference](/games/all-in-predictions/reference.png)
