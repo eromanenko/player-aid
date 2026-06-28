@@ -1,5 +1,5 @@
 ---
-title: "Bohnanza"
+title: "Бонанза"
 players: "2-7"
 time: "45"
 bggId: 342388

@@ -1,5 +1,5 @@
 ---
-title: "Carcassonne"
+title: "Каркассонн"
 players: "2-5"
 time: "45"
 bggId: 822

@@ -1,5 +1,5 @@
 ---
-title: "Alice's Garden"
+title: "Сад Алисы"
 players: "1-4"
 time: "30"
 bggId: 298635

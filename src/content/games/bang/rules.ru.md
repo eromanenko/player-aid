@@ -1,5 +1,5 @@
 ---
-title: "BANG!"
+title: "Бэнг!"
 players: "4-7"
 time: "30"
 bggId: 3955

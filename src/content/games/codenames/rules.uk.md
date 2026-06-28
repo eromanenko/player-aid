@@ -1,5 +1,5 @@
 ---
-title: "Codenames"
+title: "Кодові імена"
 players: "2-8"
 time: "15"
 bggId: 178900
