@@ -1,5 +1,5 @@
 ---
-title: "Potion-Making: Practice"
+title: "Зельеварение. Практикум"
 players: "2-6"
 time: "40"
 bggId: 34169

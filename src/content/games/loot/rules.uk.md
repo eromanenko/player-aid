@@ -1,5 +1,5 @@
 ---
-title: "Loot"
+title: "Здобич"
 players: "2-8"
 time: "20"
 bggId: 770

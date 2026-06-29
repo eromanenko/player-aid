@@ -6,18 +6,31 @@ bggId: 56692
 ---
 
 ## Setup
-Shuffle the deck (containing cards in 6 colors, numbered 0-10). Place 6 cards face up in a line to form the "Parade". Deal 5 cards to each player.
+The first player is chosen randomly, and play proceeds clockwise. The first player shuffles the deck and deals 5 cards face down to each player. Another 6 cards are placed face up in a line in the middle of the table. These are the initial participants of the parade. The remaining deck is placed face down at one end of the line to mark the start of the parade. The other end is the end of the parade.
 
 ## Gameplay
-On your turn:
-1. **Play a Card:** Choose 1 card from your hand and place it at the *end* of the Parade.
-2. **Determine Safe Zone:** Look at the number on the card you just played (let's say X). Count X cards moving towards the front of the parade. These X cards are in the "Safe Zone" and are ignored.
-3. **Collect Cards:** Look at all the cards *ahead* of the Safe Zone (closer to the front). You **must** take a card from the Parade and put it into your score pile if:
-   - Its COLOR matches the color of the card you played.
-   - OR its NUMBER is equal to or less than the card you played.
-4. **Draw:** Draw 1 card from the deck to end your turn (so you always hold 5 cards).
+On a turn, a player performs the following actions in order:
+1. **Play a card:** Choose a card from your hand and place it at the end of the parade. This card is not counted when determining positions in the next step.
+2. **Remove cards from the parade (if necessary):** If the number of cards already in the parade is *less than or equal to* the value of the played card, no cards are removed. If it is *greater*, some cards must leave the parade.
+   - To determine which cards might leave, count positions from the end of the parade towards the start, ignoring the card just played.
+   - Any card with a position number **greater** than the value of the played card is vulnerable to removal.
+   - From these vulnerable cards, remove: all cards of the **same color** as the played card, and all cards with a **value less than or equal to** the played card. (If a 0 is played, all cards are vulnerable since all positions are > 0).
+   - Removed cards are placed face up in front of the player, sorted by color (fanned out so values are visible).
+   - The remaining cards in the parade slide forward towards the start to close any gaps.
+3. **Draw a card:** Draw one card from the deck to bring your hand back to 5 cards.
 
-## End of Game & Scoring
-The game triggers when the draw deck runs out OR a player collects cards in all 6 colors. Everyone plays one final turn. Then, each player chooses 2 cards from their hand to discard, and adds the remaining 2 to their score pile.
+## End of Game
+The final round is triggered when a player has collected cards of all 6 colors, or when the draw deck is exhausted:
+- **6 colors collected:** The active player finishes their turn as normal. Then, every player (including the one who collected the 6th color) plays one more turn. Players *do not draw* a card from the deck during these final turns. After this round, the game ends. If other players collect the 6th color during this final round, it has no additional effect.
+- **Deck exhausted:** Every player plays one more turn. The game ends when everyone has exactly 4 cards left in their hand.
 
-**Scoring:** For each of the 6 colors, determine who has the *most* cards of that color. That player flips those cards face down—each card is only worth **1 point**. For everyone else, their cards score their **face value** (a 10 is worth 10 points!). The player with the *lowest* total score wins!
+## Scoring
+At the end of the game, each player chooses 2 cards from their hand to discard. The remaining 2 cards are added to the cards already in front of them.
+*Note: Each of these 2 cards is either added to an existing color stack or starts a new one.*
+Only cards laid out in front of the players are scored. Any cards still in the parade are discarded.
+Calculate points for each color separately:
+1. **Majority:** Determine who has the most cards of each color. The player(s) with the most cards in a color flip those cards face down. Each face-down card is worth **1 point** (the printed value is ignored).
+2. **Other cards:** Players add up the printed values of any of their cards of that color that remain face up. Add the number of face-down cards to this sum for the total.
+
+## Winner
+In Wonderland, where everything is a bit upside down, the player with the **lowest** total score wins! In case of a tie, the tied player with the fewest total cards in front of them (face up and face down combined) is the winner.

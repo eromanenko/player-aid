@@ -6,7 +6,12 @@ bggId: 30549
 ---
 
 ## Setup
-Place the board and research station in Atlanta. Shuffle the Player deck (with Epidemic cards) and Infection deck. Infect 9 starting cities (3 cities get 3 cubes, 3 get 2, 3 get 1). Deal starting cards to players and assign random roles.
+Place the board and research station in Atlanta. Shuffle the Infection deck and infect 9 starting cities (3 cities get 3 cubes, 3 get 2, 3 get 1). Assign random roles and deal starting cards to players based on the player count:
+- **2 players:** 4 cards each
+- **3 players:** 3 cards each
+- **4 players:** 2 cards each
+
+You can choose the game's difficulty level by using 4, 5, or 6 Epidemic cards for Introductory, Standard, or Heroic levels, respectively. Return any unused Epidemic cards to the box. Divide the player deck into roughly equal piles, creating as many piles as the number of Epidemic cards you are using. Shuffle 1 Epidemic card into each pile. Stack these piles on top of each other to form the Player deck.
 
 ## Gameplay
 Pandemic is a cooperative game where you work together to cure 4 deadly diseases. On your turn, do the following 3 steps:

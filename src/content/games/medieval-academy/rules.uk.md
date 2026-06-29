@@ -1,5 +1,5 @@
 ---
-title: "Medieval Academy"
+title: "Середньовічна Академія"
 players: "2-5"
 time: "30"
 bggId: 154386

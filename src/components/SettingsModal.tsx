@@ -6,6 +6,7 @@ import { X, Moon, Sun, Monitor, Languages, Check } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import packageInfo from "../../package.json";
 
 interface SettingsModalProps {
   isOpen: boolean;
@@ -201,7 +202,7 @@ export function SettingsModal({ isOpen, onClose, currentLang }: SettingsModalPro
 
         {/* Footer */}
         <div className="p-4 border-t border-border bg-muted/30 text-center">
-          <span className="text-xs text-muted-foreground">{t.version} 0.5.1</span>
+          <span className="text-xs text-muted-foreground">{t.version} {packageInfo.version}</span>
         </div>
       </div>
     </div>

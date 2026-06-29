@@ -6,7 +6,15 @@ bggId: 171273
 ---
 
 ## Setup
-Place the Bomb card deck in the center and reveal a market of Bomb cards. Deal starting Bomb cards to each player based on difficulty. Put all the dice in the bag. **Start a 10-minute timer!**
+Shuffle the bomb cards and deal two cards to each player. If you are playing solo, deal yourself four cards. Players place their cards face up in front of them. If the first card a player receives has a value of 3 or 4 points, the second card must be 1 or 2 points. For a solo game, you must have at least 3 cards with different values (1,1,2,3 or 2,3,3,4, etc.). Keep dealing cards until this is exactly the case, then reshuffle the unused cards. Next, deal bomb cards face down in an amount equal to the number of players and according to your chosen difficulty level (see table). Put the remaining deck back in the box. From your prepared deck, place 5 bomb cards face up in a row in the center of the table. Shuffle 6 random detonator cards into the remaining bomb cards. Place this deck next to the 5 face-up bomb cards. Put all 25 dice into the bag. One of the players takes the bag with dice, now everything is ready for the game.
+
+| Players | Training | Normal | Expert | Elite | Insane |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | 16 | 19 | 21 | 23 | 25 |
+| 2 | 17 | 20 | 22 | 24 | 26 |
+| 3 | 18 | 21 | 23 | 25 | 27 |
+| 4 | 19 | 22 | 24 | 26 | 28 |
+| 5 | 20 | 23 | 25 | 27 | 29 |
 
 ## Gameplay
 FUSE is a real-time cooperative game. You have exactly 10 minutes to defuse all the bombs in the deck.
