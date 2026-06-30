@@ -1,24 +1,28 @@
 ---
-title: "Ribbit"
-players: "2-4"
-time: "15"
+title: "Turtle Race"
+players: "2-5"
+time: "20"
 bggId: 9441
 ---
 
+## Goal of the Game
+Each player wants to be the first to bring their turtle to the cabbage field (the last space of the track).
+
 ## Setup
-Place the 5 colored wooden frogs on the starting space. Each player is dealt a secret color tile (keep this hidden!) and a hand of movement cards.
+- Place the board in the middle of the table and put all five turtles on the starting space (separately).
+- Place the turtle tokens face down on the table and shuffle them. Each player draws one token and looks at which turtle they got (without showing the opponents). These tokens remain face down in front of the players until the end of the game. Put any remaining tokens back in the box without looking at their front side.
+- Shuffle the deck of cards and deal 5 cards to each player. Place the remaining deck face down next to the board. 
+- The youngest player goes first, and play continues clockwise.
 
 ## Gameplay
-Ribbit is a secret identity race game. You want *your* secret frog to win, but you don't want anyone else to know which color is yours!
-
-On your turn:
-1. **Play a Card:** Choose 1 movement card from your hand and play it face up. This card shows which color frog must move, and how many spaces (e.g., Green moves forward 2 spaces, or Any color moves backward 1 space). Some cards allow you to move the frog that is currently in last place.
-2. **Move the Frog:** Move the indicated frog. 
-   - **Piggybacking:** If a frog lands on a space already occupied by another frog, it jumps *on top* of it! 
-   - **Carrying:** If you move a frog that has other frogs sitting on its back, *all* the frogs move together as a stack! The frog at the bottom carries everyone above it.
-3. **Draw a Card:** Draw 1 new movement card from the deck to end your turn.
+On your turn, play 1 card from your hand and perform the indicated action:
+1. Choose a card from your hand and play it face up (played cards go to the discard pile). The card shows which color turtle must move and by how many spaces.
+2. Move the indicated turtle:
+   - **Jump on the Back:** If a turtle lands on a space where there is already another turtle, it climbs *onto its shell*!
+   - **Piggyback:** If you move a turtle that has other turtles on its back, *all* of them move together as one stack! The turtle on the bottom carries everyone on top.
+3. At the end of your turn, draw 1 new card from the deck.
 
 ## Winning
-The game ends immediately when any frog reaches or crosses the finish line. 
-- If a single frog crosses, the player who secretly holds that color wins! 
-- If a stack of frogs crosses the finish line together, the frog at the **bottom** of the stack (the one that carried the others) is the winner!
+The game ends immediately when any turtle reaches or crosses the cabbage field (finish line).
+- If one turtle finishes alone, the player who secretly owns that color wins!
+- If a stack of turtles crosses the finish line, the winner is the turtle at the very **bottom** of the stack (the one that carried the others)!

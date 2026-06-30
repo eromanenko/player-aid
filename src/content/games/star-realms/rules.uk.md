@@ -1,5 +1,5 @@
 ---
-title: "Зоряні імперії (Star Realms)"
+title: "Зоряні імперії"
 players: "1-6"
 time: "20-45"
 bggId: 147020

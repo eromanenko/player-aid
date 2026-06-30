@@ -38,7 +38,7 @@ Adds the "Pepper" mechanic, allowing you to discard cards for more powerful acti
 </div>
 
 ## End of Round
-If at the end of your turn you have **7 or more points** (points in hand + played cards), you must declare the end of the round in one of two ways:
+If at the end of your turn you have **7 or more points** (points in hand + played cards), you may declare the end of the round in one of two ways:
 
 1. **"STOP"**: The round ends immediately. All players simply score their points.
 2. **"LAST CHANCE"**: You bet on your victory. Other players take one more turn, then:

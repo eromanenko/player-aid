@@ -1,5 +1,5 @@
 ---
-title: "Звездные империи (Star Realms)"
+title: "Звездные империи"
 players: "1-6"
 time: "20-45"
 bggId: 147020
