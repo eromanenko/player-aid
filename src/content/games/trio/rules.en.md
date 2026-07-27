@@ -6,20 +6,32 @@ bggId: 352515
 ---
 
 ## Setup
-The deck has 36 cards (three sets of 1 to 12). Deal the cards according to the player count. Some cards go face down in the center of the table, and the rest are dealt evenly to players. 
-**Important:** Players MUST sort their hand of cards from lowest to highest. You cannot rearrange your hand during the game!
+1. Shuffle and deal cards face down to each player according to the number of players. Place the remaining cards face down in the middle, next to each other.
 
-## Gameplay
-Your goal is to find "Trios" (sets of 3 identical cards).
+| Number of players | 3 | 4 | 5 | 6 |
+| :--- | :---: | :---: | :---: | :---: |
+| Cards per player | 9 | 7 | 6 | 5 |
+| Cards in the middle | 9 | 8 | 6 | 6 |
 
-On your turn, you must reveal cards one by one. You can reveal a maximum of 3 cards. 
-To reveal a card, you can either:
-1. **Reveal a center card:** Flip any face-down card in the center.
-2. **Ask a player (including yourself):** Ask ANY player to reveal either their **lowest** or **highest** card. They must place it face up on the table. (You cannot ask for a card from the middle of their hand).
+2. All players pick up their cards and sort them into numerical order, lowest to highest, without showing anyone.
+3. Decide if you are playing **SIMPLE** or **SPICY** mode. (We recommend SIMPLE if this is your first time playing.)
 
-- If the revealed cards **match**, you may reveal another card.
-- If the cards **DO NOT match**, your turn ends immediately! Return all revealed cards to where they came from (face down in the center, or back into the player's hand in the correct sorted position).
-- If you reveal 3 matching cards, you claim the **Trio**! Place the three cards face up in front of you.
+## How to Play
+Whoever most recently ate something with avocado goes first and play continues to the left. On your turn, try to find three of the same number card. To do this, reveal cards one at a time in one of two ways:
+
+1. **Reveal the LOWEST or HIGHEST card from any player's hand, including yours.** Ask an opponent to reveal either their lowest or highest card. (You could also reveal your lowest or highest card.) Place the card face up for all to see.
+2. **Reveal a card from the middle.** Turn any card in the middle face up for all to see.
+
+Continue playing until one of the following happens:
+- **You reveal a card that doesn't match the previous one.** In this case, all revealed cards are then put back where they came from: either face down in the middle and/or returned to their owner(s).
+- **OR You complete a trio** by finding all three matching cards. Congratulations! Take the trio and place it face up in front of you.
+
+In either case, your turn is over.
+
+**IMPORTANT:**
+- You can perform the same action several times. For example: ask an opponent to reveal their highest card, then ask again for their highest remaining card.
+- When you reveal a card from your own hand, it must be the lowest or highest number. (NEVER a number from the middle of your hand.)
+- If you don't have any cards left in your hand, you may still play using the cards in the middle and your opponents' cards.
 
 ## Winning
 You win the game immediately if you achieve ANY of these three conditions:

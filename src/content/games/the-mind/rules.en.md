@@ -11,32 +11,34 @@ expansions:
 ---
 
 ## Setup
-The game has 100 cards numbered 1-100. Deal lives and shurikens based on the player count. Shuffle the deck. 
+The team receives a certain number of lives and throwing stars (shurikens), which are placed face up on the table. The remaining life and throwing star cards are set aside: they might be needed later. Now, a certain number of level cards are stacked in ascending order face up (the first level should be on top, the highest level on the bottom) next to the lives and throwing stars. Levels that will not be used are returned to the box.
+
+- **2 players:** levels 1–12, 2 lives, 1 throwing star
+- **3 players:** levels 1–10, 3 lives, 1 throwing star
+- **4 players:** levels 1–8, 4 lives, 1 throwing star
+
+The 100 number cards are shuffled. Each player receives one card (in the first level), which they keep secret from the others. The remaining cards are set aside face down.
 
 ## Gameplay
-The Mind is a cooperative game where you must play cards in ascending order. **The catch: You cannot communicate in ANY way!** No speaking, pointing, or secret signals.
+Please focus: each player who is ready to start the next level of the game places a hand flat on the table, palm down, to take time to tune into the game. When everyone is ready, players remove their hands from the table and the game begins. Note: this collective concentration at the beginning of a specific level is very important for the successful survival of the team! During the game, players have the right to refocus at any time. Simply call out "stop" to interrupt the game. After that, each player places a hand on the table, concentrates, and then everyone removes their hands together, and the game continues.
 
-The game is played in levels:
-- **Level 1:** Deal 1 card to each player.
-- **Level 2:** Deal 2 cards to each player.
-- (And so on, up to Level 12, 10, or 8 depending on player count).
+The cards that players hold in their hands must be played to the center of the table in ascending order. The card with the lowest (available) value must be played first, then the card with the second lowest (available) value, and so on. Cards are always played one at a time. If a player holds cards, for example, with the values 36 and 37, they can immediately play them one after the other, but they must be laid on the table one at a time! Players do not take turns in any specific order. Whoever believes they currently have the card with the lowest value simply plays that card.
 
-At the start of a level, everyone places their hand face down to concentrate. When ready, players look at their cards. 
+## Rewards (levels 2, 3, 5, 6, 8, 9)
+After the team has successfully completed the second level, players receive one throwing star as a reward. It is added to the current throwing stars. In addition, there are rewards for completing levels 3, 5, 6, 8, and 9. In each case, the reward is shown in the bottom right corner of the level card (one life or one throwing star).
 
-**Playing Cards:**
-- There are NO turns. Anyone can play a card at any time.
-- Place your lowest card face up in the center. The goal is to build a single ascending pile (e.g., 14, then 32, then 35, then 89).
+*Note: ideally, a team can collect a maximum of 5 lives and 3 throwing stars.*
 
-**Mistakes (Lives):**
-- If a player plays a card, and someone else was holding a LOWER card, STOP. 
-- The team loses **1 Life**. 
-- All cards lower than the played card are discarded, and the game continues.
+## Playing a card out of order: lose 1 life!
+If someone plays a card with a number that is out of order, the game is immediately stopped by the player (or players) who holds a card with a lower value than the one played. As a result, the team loses one of its lives, and a life card is set aside. Then, all cards in the players' hands with values lower than the last card played must be discarded face up. The team must then refocus and continue the current level (it does not need to be restarted from the beginning!).
 
-**Shurikens:**
-- If the team is stuck, anyone can raise a hand. If everyone agrees, spend **1 Shuriken**. Every player discards their lowest card face up.
+## Playing a Throwing Star
+At any point during a level, any player can suggest playing a throwing star — the player signals their intention by raising a hand. If all players agree, a throwing star is played, and each player discards the card with the lowest value from their hand, placing it face up. Then one throwing star is set aside. After that, all players focus, and the game continues.
 
-## Winning
-You win if you successfully complete all levels. You lose if you run out of lives!
+## Game Over
+If the participants manage to complete all levels from the level deck, it means their team has won! If the team loses its last life, then their attempt, unfortunately, has failed.
+
+**A New Challenge:** if the team successfully completes all levels from the level deck (and is on cloud nine), the game immediately continues in blind mode. The team starts playing again from the first level with all their remaining lives and throwing stars, but this time all cards are played to the center of the table face down. At the end of the level, the stack is turned over and the sequence of cards is checked. A mistake by any player costs one life. All other rules remain unchanged. How many levels can the team complete blind?
 
 <div data-expansion="extreme">
 

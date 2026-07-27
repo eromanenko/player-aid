@@ -58,6 +58,12 @@ export function getAllGames(lang: string): GameMetadata[] {
     } as GameMetadata;
   }).filter(Boolean) as GameMetadata[];
 
+  allGames.sort((a, b) => {
+    const titleA = a.title.toLowerCase().replace(/^the\s+/, '');
+    const titleB = b.title.toLowerCase().replace(/^the\s+/, '');
+    return titleA.localeCompare(titleB);
+  });
+
   return allGames;
 }
 

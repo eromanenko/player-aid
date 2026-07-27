@@ -21,10 +21,18 @@ bggId: 429293
 8. You are now ready to begin the game.
 
 ## Gameplay
-The player who starts the trick (the lead player) plays any card from their hand to the center of the table. The suit of this first card is the lead suit of the trick (hills, mountains, forests, shadows, or rings). **Frodo leads the first trick.**
+The player who starts the trick (lead player) plays any card from their hand to the center of the table. The suit of this first card is the lead suit of the trick (hills, mountains, forests, shadows, or rings). **Frodo leads the first trick.**
+Tricks are played using the standard "must follow suit" rule. Players must follow suit if they can. The trick is won by the highest card of the lead suit. The player leading the trick can play a card of any suit except rings.
 
-*   **Follow Suit:** Starting with the player to the left of the lead player and continuing clockwise, each player must play a card of the same suit as the lead card (if they have such a card). This is called "following suit". If a player cannot follow suit, they play a card of any suit from their hand.
-*   **Win the Trick:** After all players have played 1 card, you determine the winner of the trick. The trick is won by the player who played the highest card of the lead suit (i.e., the card with the highest value). That player takes all the cards of the trick and places them in a face-down pile in front of them. The winner of the trick leads the next trick.
+The rings suit differs from the other suits:
+* Ring cards have values from 1 to 5 (not 1 to 8 like the cards of the other 4 suits).
+* A player cannot lead a trick with a ring card until any ring card has been played in a previous trick (if a player did not have cards of the lead suit and therefore played a ring card, or had only ring cards in hand).
+* Only the 1 of rings card can win any trick (like a trump card in other trick-taking games). The 1 of rings can also be played as a normal, not trump card.
+* Ring cards from 2 to 5 are considered normal (non-trump) cards.
+
+The round ends after each player plays all their cards. Some characters may have a card left in their hand at the end of the round (such as Gandalf).
+To win, all players must complete their characters' tasks at the end of the round.
+
 
 **Communication:**
 During setup and throughout the game, you may only discuss information that is available to all players. You may not show or discuss the cards in your hand or the hands of other players. During setup, you should not discuss the advantages of any particular character, as doing so might reveal certain information. Players may remind each other of their characters' tasks and special scenario rules, as well as the current state of their own tasks or any other public information (such as face-up cards on the table).
